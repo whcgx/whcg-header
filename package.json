@@ -1,0 +1,20 @@
+{
+  "name": "@whcg/whcg-header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+     "build": "rollup -c"
+  },
+  "files": [
+     "dist",
+     "theme"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.65.2",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  }
+}
