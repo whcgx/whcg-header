@@ -5,16 +5,22 @@
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "scripts": {
-     "build": "rollup -c"
+    "build": "rollup -c"
   },
   "files": [
-     "dist",
-     "theme"
+    "dist",
+    "theme"
   ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^0.65.2",
     "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.0",
+    "@polymer/polymer": "^3.0.5",
+    "@whcg/whcg-button-box": "^1.2.2",
+    "@whcg/whcg-general-styles": "^1.2.2"
   }
 }
